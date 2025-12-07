@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: windows-2022 # Specify a Windows runner
+    runs-on: windows-latest # Specify a Windows runner
 
     steps:
       - name: Checkout repository
